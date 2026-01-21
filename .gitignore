@@ -1,0 +1,61 @@
+# Ignore everything in the root
+/*
+
+# Allow specific root files
+!.github/
+!.github/workflows/
+!.gitignore
+!.nvmrc
+!.prettierrc
+!.prettierignore
+!.editorconfig
+!googlea4ff2d5bedd75441.html
+!BingSiteAuth.xml
+
+# Allow only the wp-content directory
+!/wp-content/
+
+# Ignore everything in wp-content
+/wp-content/*
+
+# Allow mu-plugins and SCF/ACF JSON
+!/wp-content/mu-plugins/
+!/wp-content/acf-json/
+
+# Ignore all themes (headless; no theme tracked)
+/wp-content/themes/*
+
+# Ignore OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.sublime-*
+*.code-workspace
+
+# Ignore node dependencies
+node_modules/
+
+# Ignore build files
+*.css.map
+*.js.map
+
+# Ignore environment files
+.env
+.env.*
+!.env.example
+
+# Ignore debug logs
+*.log
+debug.log
+
+# Ignore package manager files
+package-lock.json
+yarn.lock
